@@ -1,7 +1,7 @@
 <template>
   <div class="col-span-full xl:col-span-8 bg-white dark:bg-gray-800 shadow-xs rounded-xl">
     <header class="px-5 py-4 border-b border-gray-100 dark:border-gray-700/60">
-      <h2 class="font-semibold text-gray-800 dark:text-gray-100">Top Channels</h2>
+      <h2 class="font-semibold text-gray-800 dark:text-gray-100">Топ каналов</h2>
     </header>
     <div class="p-3">
 
@@ -12,19 +12,19 @@
           <thead class="text-xs uppercase text-gray-400 dark:text-gray-500 bg-gray-50 dark:bg-gray-700/50 rounded-xs">
             <tr>
               <th class="p-2">
-                <div class="font-semibold text-left">Source</div>
+                <div class="font-semibold text-left">Источник</div>
               </th>
               <th class="p-2">
-                <div class="font-semibold text-center">Visitors</div>
+                <div class="font-semibold text-center">Посетители</div>
               </th>
               <th class="p-2">
-                <div class="font-semibold text-center">Revenues</div>
+                <div class="font-semibold text-center">Доходы</div>
               </th>
               <th class="p-2">
-                <div class="font-semibold text-center">Sales</div>
+                <div class="font-semibold text-center">Продажи</div>
               </th>
               <th class="p-2">
-                <div class="font-semibold text-center">Conversion</div>
+                <div class="font-semibold text-center">Конверсия</div>
               </th>
             </tr>
           </thead>
@@ -45,7 +45,7 @@
                 <div class="text-center">2.4K</div>
               </td>
               <td class="p-2">
-                <div class="text-center text-green-500">$3,877</div>
+                <div class="text-center text-green-500">₽289,000</div>
               </td>
               <td class="p-2">
                 <div class="text-center">267</div>
@@ -69,7 +69,7 @@
                 <div class="text-center">2.2K</div>
               </td>
               <td class="p-2">
-                <div class="text-center text-green-500">$3,426</div>
+                <div class="text-center text-green-500">₽255,000</div>
               </td>
               <td class="p-2">
                 <div class="text-center">249</div>
@@ -86,14 +86,14 @@
                     <circle fill="#EA4335" cx="18" cy="18" r="18" />
                     <path d="M18 17v2.4h4.1c-.2 1-1.2 3-4 3-2.4 0-4.3-2-4.3-4.4 0-2.4 2-4.4 4.3-4.4 1.4 0 2.3.6 2.8 1.1l1.9-1.8C21.6 11.7 20 11 18.1 11c-3.9 0-7 3.1-7 7s3.1 7 7 7c4 0 6.7-2.8 6.7-6.8 0-.5 0-.8-.1-1.2H18z" fill="#FFF" fill-rule="nonzero" />
                   </svg>
-                  <div class="text-gray-800 dark:text-gray-100">Google (organic)</div>
+                  <div class="text-gray-800 dark:text-gray-100">Google (органика)</div>
                 </div>
               </td>
               <td class="p-2">
                 <div class="text-center">2.0K</div>
               </td>
               <td class="p-2">
-                <div class="text-center text-green-500">$2,444</div>
+                <div class="text-center text-green-500">₽182,000</div>
               </td>
               <td class="p-2">
                 <div class="text-center">224</div>
@@ -117,7 +117,7 @@
                 <div class="text-center">1.9K</div>
               </td>
               <td class="p-2">
-                <div class="text-center text-green-500">$2,236</div>
+                <div class="text-center text-green-500">₽167,000</div>
               </td>
               <td class="p-2">
                 <div class="text-center">220</div>
@@ -141,7 +141,7 @@
                 <div class="text-center">1.7K</div>
               </td>
               <td class="p-2">
-                <div class="text-center text-green-500">$2,034</div>
+                <div class="text-center text-green-500">₽152,000</div>
               </td>
               <td class="p-2">
                 <div class="text-center">204</div>

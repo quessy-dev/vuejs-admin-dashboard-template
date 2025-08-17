@@ -1,7 +1,7 @@
 <template>
   <div class="col-span-full xl:col-span-6 bg-white dark:bg-gray-800 shadow-xs rounded-xl">
     <header class="px-5 py-4 border-b border-gray-100 dark:border-gray-700/60">
-      <h2 class="font-semibold text-gray-800 dark:text-gray-100">Customers</h2>
+      <h2 class="font-semibold text-gray-800 dark:text-gray-100">Клиенты</h2>
     </header>
     <div class="p-3">
 
@@ -12,16 +12,16 @@
           <thead class="text-xs font-semibold uppercase dark:text-gray-500 bg-gray-50 dark:bg-gray-700/50">
             <tr>
               <th class="p-2 whitespace-nowrap">
-                <div class="font-semibold text-left">Name</div>
+                <div class="font-semibold text-left">Имя</div>
               </th>
               <th class="p-2 whitespace-nowrap">
                 <div class="font-semibold text-left">Email</div>
               </th>
               <th class="p-2 whitespace-nowrap">
-                <div class="font-semibold text-left">Spent</div>
+                <div class="font-semibold text-left">Потрачено</div>
               </th>
               <th class="p-2 whitespace-nowrap">
-                <div class="font-semibold text-center">Country</div>
+                <div class="font-semibold text-center">Страна</div>
               </th>
             </tr>
           </thead>
@@ -43,7 +43,7 @@
                 <div class="text-left">{{customer.email}}</div>
               </td>
               <td class="p-2 whitespace-nowrap">
-                <div class="text-left font-medium text-green-500">{{customer.spent}}</div>
+                <div class="text-left font-medium text-green-500">₽{{customer.spent}}</div>
               </td>
               <td class="p-2 whitespace-nowrap">
                 <div class="text-lg text-center">{{customer.location}}</div>
@@ -77,7 +77,7 @@ export default {
         name: 'Alex Shatov',
         email: 'alexshatov@gmail.com',
         location: '🇺🇸',
-        spent: '$2,890.66',
+        spent: '215,800',
       },
       {
         id: '1',
@@ -85,7 +85,7 @@ export default {
         name: 'Philip Harbach',
         email: 'philip.h@gmail.com',
         location: '🇩🇪',
-        spent: '$2,767.04',
+        spent: '206,500',
       },
       {
         id: '2',
@@ -93,7 +93,7 @@ export default {
         name: 'Mirko Fisuk',
         email: 'mirkofisuk@gmail.com',
         location: '🇫🇷',
-        spent: '$2,996.00',
+        spent: '223,700',
       },
       {
         id: '3',
@@ -101,7 +101,7 @@ export default {
         name: 'Olga Semklo',
         email: 'olga.s@cool.design',
         location: '🇮🇹',
-        spent: '$1,220.66',
+        spent: '91,100',
       },
       {
         id: '4',
@@ -109,7 +109,7 @@ export default {
         name: 'Burak Long',
         email: 'longburak@gmail.com',
         location: '🇬🇧',
-        spent: '$1,890.66',
+        spent: '141,200',
       },      
     ])
 

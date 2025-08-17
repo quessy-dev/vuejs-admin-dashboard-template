@@ -22,52 +22,52 @@
     >
       <div v-show="dropdownOpen" class="origin-top-right z-10 absolute top-full left-0 right-auto min-w-56 bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700/60 pt-1.5 rounded-lg shadow-lg overflow-hidden mt-1" :class="align === 'right' ? 'md:left-auto md:right-0' : 'md:left-0 md:right-auto'">
         <div ref="dropdown">
-          <div class="text-xs font-semibold text-gray-400 dark:text-gray-500 uppercase pt-1.5 pb-2 px-3">Filters</div>
+          <div class="text-xs font-semibold text-gray-400 dark:text-gray-500 uppercase pt-1.5 pb-2 px-3">Фильтры</div>
           <ul class="mb-4">
             <li class="py-1 px-3">
               <label class="flex items-center">
                 <input type="checkbox" class="form-checkbox" />
-                <span class="text-sm font-medium ml-2">Direct VS Indirect</span>
+                <span class="text-sm font-medium ml-2">Прямые VS Косвенные</span>
               </label>
             </li>
             <li class="py-1 px-3">
               <label class="flex items-center">
                 <input type="checkbox" class="form-checkbox" />
-                <span class="text-sm font-medium ml-2">Real Time Value</span>
+                <span class="text-sm font-medium ml-2">Значения в реальном времени</span>
               </label>
             </li>
             <li class="py-1 px-3">
               <label class="flex items-center">
                 <input type="checkbox" class="form-checkbox" />
-                <span class="text-sm font-medium ml-2">Top Channels</span>
+                <span class="text-sm font-medium ml-2">Топ каналов</span>
               </label>
             </li>
             <li class="py-1 px-3">
               <label class="flex items-center">
                 <input type="checkbox" class="form-checkbox" />
-                <span class="text-sm font-medium ml-2">Sales VS Refunds</span>
+                <span class="text-sm font-medium ml-2">Продажи VS Возвраты</span>
               </label>
             </li>
             <li class="py-1 px-3">
               <label class="flex items-center">
                 <input type="checkbox" class="form-checkbox" />
-                <span class="text-sm font-medium ml-2">Last Order</span>
+                <span class="text-sm font-medium ml-2">Последний заказ</span>
               </label>
             </li>
             <li class="py-1 px-3">
               <label class="flex items-center">
                 <input type="checkbox" class="form-checkbox" />
-                <span class="text-sm font-medium ml-2">Total Spent</span>
+                <span class="text-sm font-medium ml-2">Общая сумма</span>
               </label>
             </li>
           </ul>
           <div class="py-2 px-3 border-t border-gray-200 dark:border-gray-700/60 bg-gray-50 dark:bg-gray-700/20">
             <ul class="flex items-center justify-between">
               <li>
-                <button class="btn-xs bg-white dark:bg-gray-800 border-gray-200 dark:border-gray-700/60 hover:border-gray-300 dark:hover:border-gray-600 text-red-500">Clear</button>
+                <button class="btn-xs bg-white dark:bg-gray-800 border-gray-200 dark:border-gray-700/60 hover:border-gray-300 dark:hover:border-gray-600 text-red-500">Очистить</button>
               </li>
               <li>
-                <button class="btn-xs bg-white dark:bg-gray-800 border-gray-200 dark:border-gray-700/60 hover:border-gray-300 dark:hover:border-gray-600 text-gray-800 dark:text-gray-300" @click="dropdownOpen = false" @focusout="dropdownOpen = false">Apply</button>
+                <button class="btn-xs bg-white dark:bg-gray-800 border-gray-200 dark:border-gray-700/60 hover:border-gray-300 dark:hover:border-gray-600 text-gray-800 dark:text-gray-300" @click="dropdownOpen = false" @focusout="dropdownOpen = false">Применить</button>
               </li>
             </ul>
           </div>          

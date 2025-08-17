@@ -18,7 +18,7 @@
 
             <!-- Left: Title -->
             <div class="mb-4 sm:mb-0">
-              <h1 class="text-2xl md:text-3xl text-gray-800 dark:text-gray-100 font-bold">Dashboard</h1>
+              <h1 class="text-2xl md:text-3xl text-gray-800 dark:text-gray-100 font-bold">Главная панель</h1>
             </div>
 
             <!-- Right: Actions -->
@@ -33,7 +33,7 @@
                   <svg class="fill-current shrink-0 xs:hidden" width="16" height="16" viewBox="0 0 16 16">
                       <path d="M15 7H9V1c0-.6-.4-1-1-1S7 .4 7 1v6H1c-.6 0-1 .4-1 1s.4 1 1 1h6v6c0 .6.4 1 1 1s1-.4 1-1V9h6c.6 0 1-.4 1-1s-.4-1-1-1z" />
                   </svg>
-                  <span class="max-xs:sr-only">Add View</span>
+                  <span class="max-xs:sr-only">Добавить виджет</span>
               </button>
             </div>
 

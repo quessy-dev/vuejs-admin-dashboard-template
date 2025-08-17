@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col col-span-full sm:col-span-6 bg-white dark:bg-gray-800 shadow-xs rounded-xl">
     <header class="px-5 py-4 border-b border-gray-100 dark:border-gray-700/60 flex items-center">
-      <h2 class="font-semibold text-gray-800 dark:text-gray-100">Reason for Refunds</h2>
+      <h2 class="font-semibold text-gray-800 dark:text-gray-100">Причины возвратов</h2>
     </header>
     <div class="px-5 py-3">
       <div class="flex items-start">
@@ -31,10 +31,10 @@ export default {
   },  
   setup() {
     const chartData = ref({
-      labels: ['Reasons'],
+      labels: ['Причины'],
       datasets: [
         {
-          label: 'Having difficulties using the product',
+          label: 'Сложности в использовании продукта',
           data: [131],
           backgroundColor: getCssVariable('--color-violet-500'),
           hoverBackgroundColor: getCssVariable('--color-violet-600'),
@@ -42,7 +42,7 @@ export default {
           categoryPercentage: 1,
         },
         {
-          label: 'Missing features I need',
+          label: 'Отсутствие нужных функций',
           data: [100],
           backgroundColor: getCssVariable('--color-violet-700'),
           hoverBackgroundColor: getCssVariable('--color-violet-800'),
@@ -50,7 +50,7 @@ export default {
           categoryPercentage: 1,
         },
         {
-          label: 'Not satisfied about the quality of the product',
+          label: 'Неудовлетворенность качеством',
           data: [81],
           backgroundColor: getCssVariable('--color-sky-500'),
           hoverBackgroundColor: getCssVariable('--color-sky-600'),
@@ -58,7 +58,7 @@ export default {
           categoryPercentage: 1,
         },
         {
-          label: 'The product doesn’t look as advertised',
+          label: 'Продукт не соответствует описанию',
           data: [65],
           backgroundColor: getCssVariable('--color-green-500'),
           hoverBackgroundColor: getCssVariable('--color-green-600'),
@@ -66,7 +66,7 @@ export default {
           categoryPercentage: 1,
         },
         {
-          label: 'Other',
+          label: 'Другое',
           data: [72],
           backgroundColor: getCssVariable('--color-gray-200'),
           hoverBackgroundColor: getCssVariable('--color-gray-300'),

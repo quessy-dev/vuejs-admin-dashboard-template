@@ -24,7 +24,7 @@
       leave-to-class="opacity-0"
     >
       <div v-show="dropdownOpen" class="origin-top-right z-10 absolute top-full -mr-48 sm:mr-0 min-w-80 bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700/60 py-1.5 rounded-lg shadow-lg overflow-hidden mt-1" :class="align === 'right' ? 'right-0' : 'left-0'">
-        <div class="text-xs font-semibold text-gray-400 dark:text-gray-500 uppercase pt-1.5 pb-2 px-4">Notifications</div>
+        <div class="text-xs font-semibold text-gray-400 dark:text-gray-500 uppercase pt-1.5 pb-2 px-4">Уведомления</div>
         <ul
           ref="dropdown"
           @focusin="dropdownOpen = true"
@@ -32,20 +32,20 @@
         >
           <li class="border-b border-gray-200 dark:border-gray-700/60 last:border-0">
             <router-link class="block py-2 px-4 hover:bg-gray-50 dark:hover:bg-gray-700/20" to="#0" @click="dropdownOpen = false">
-              <span class="block text-sm mb-2">📣 <span class="font-medium text-gray-800 dark:text-gray-100">Edit your information in a swipe</span> Sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim.</span>
-              <span class="block text-xs font-medium text-gray-400 dark:text-gray-500">Feb 12, 2024</span>
+              <span class="block text-sm mb-2">📣 <span class="font-medium text-gray-800 dark:text-gray-100">Обновите информацию одним движением</span> Новая функция позволяет быстро редактировать данные профиля.</span>
+              <span class="block text-xs font-medium text-gray-400 dark:text-gray-500">12 фев, 2024</span>
             </router-link>
           </li>
           <li class="border-b border-gray-200 dark:border-gray-700/60 last:border-0">
             <router-link class="block py-2 px-4 hover:bg-gray-50 dark:hover:bg-gray-700/20" to="#0" @click="dropdownOpen = false">
-              <span class="block text-sm mb-2">📣 <span class="font-medium text-gray-800 dark:text-gray-100">Edit your information in a swipe</span> Sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim.</span>
-              <span class="block text-xs font-medium text-gray-400 dark:text-gray-500">Feb 9, 2024</span>
+              <span class="block text-sm mb-2">📣 <span class="font-medium text-gray-800 dark:text-gray-100">Новые возможности аналитики</span> Добавлены расширенные отчеты и графики для лучшего анализа данных.</span>
+              <span class="block text-xs font-medium text-gray-400 dark:text-gray-500">9 фев, 2024</span>
             </router-link>
           </li>
           <li class="border-b border-gray-200 dark:border-gray-700/60 last:border-0">
             <router-link class="block py-2 px-4 hover:bg-gray-50 dark:hover:bg-gray-700/20" to="#0" @click="dropdownOpen = false">
-              <span class="block text-sm mb-2">🚀<span class="font-medium text-gray-800 dark:text-gray-100">Say goodbye to paper receipts!</span> Sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim.</span>
-              <span class="block text-xs font-medium text-gray-400 dark:text-gray-500">Jan 24, 2024</span>
+              <span class="block text-sm mb-2">🚀<span class="font-medium text-gray-800 dark:text-gray-100">Забудьте о бумажных чеках!</span> Теперь все документы доступны в электронном виде.</span>
+              <span class="block text-xs font-medium text-gray-400 dark:text-gray-500">24 янв, 2024</span>
             </router-link>
           </li>
         </ul>

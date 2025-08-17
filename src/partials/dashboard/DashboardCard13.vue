@@ -1,14 +1,14 @@
 <template>
   <div class="col-span-full xl:col-span-6 bg-white dark:bg-gray-800 shadow-xs rounded-xl">
     <header class="px-5 py-4 border-b border-gray-100 dark:border-gray-700/60">
-      <h2 class="font-semibold text-gray-800 dark:text-gray-100">Income/Expenses</h2>
+      <h2 class="font-semibold text-gray-800 dark:text-gray-100">Доходы/Расходы</h2>
     </header>
     <div class="p-3">
 
       <!-- Card content -->
       <!-- "Today" group -->
       <div>
-        <header class="text-xs uppercase text-gray-400 dark:text-gray-500 bg-gray-50 dark:bg-gray-700/50 rounded-xs font-semibold p-2">Today</header>
+        <header class="text-xs uppercase text-gray-400 dark:text-gray-500 bg-gray-50 dark:bg-gray-700/50 rounded-xs font-semibold p-2">Сегодня</header>
         <ul class="my-1">
           <!-- Item -->
           <li class="flex px-2">
@@ -19,9 +19,9 @@
             </div>
             <div class="grow flex items-center border-b border-gray-100 dark:border-gray-700/60 text-sm py-2">
               <div class="grow flex justify-between">
-                <div class="self-center"><a class="font-medium text-gray-800 hover:text-gray-900 dark:text-gray-100 dark:hover:text-white" href="#0">Qonto</a> billing</div>
+                <div class="self-center">Счет от <a class="font-medium text-gray-800 hover:text-gray-900 dark:text-gray-100 dark:hover:text-white" href="#0">Qonto</a></div>
                 <div class="shrink-0 self-start ml-2">
-                  <span class="font-medium text-gray-800 dark:text-gray-100">-$49.88</span>
+                  <span class="font-medium text-gray-800 dark:text-gray-100">-₽3,720</span>
                 </div>
               </div>
             </div>
@@ -35,9 +35,9 @@
             </div>
             <div class="grow flex items-center border-b border-gray-100 dark:border-gray-700/60 text-sm py-2">
               <div class="grow flex justify-between">
-                <div class="self-center"><a class="font-medium text-gray-800 hover:text-gray-900 dark:text-gray-100 dark:hover:text-white" href="#0">Cruip.com</a> Market Ltd 70 Wilson St London</div>
+                <div class="self-center">Платеж от <a class="font-medium text-gray-800 hover:text-gray-900 dark:text-gray-100 dark:hover:text-white" href="#0">Cruip.com</a></div>
                 <div class="shrink-0 self-start ml-2">
-                  <span class="font-medium text-green-600">+249.88</span>
+                  <span class="font-medium text-green-600">+₽18,650</span>
                 </div>
               </div>
             </div>
@@ -51,9 +51,9 @@
             </div>
             <div class="grow flex items-center border-b border-gray-100 dark:border-gray-700/60 text-sm py-2">
               <div class="grow flex justify-between">
-                <div class="self-center"><a class="font-medium text-gray-800 hover:text-gray-900 dark:text-gray-100 dark:hover:text-white" href="#0">Notion Labs Inc</a></div>
+                <div class="self-center">Платеж от <a class="font-medium text-gray-800 hover:text-gray-900 dark:text-gray-100 dark:hover:text-white" href="#0">Notion Labs Inc</a></div>
                 <div class="shrink-0 self-start ml-2">
-                  <span class="font-medium text-green-600">+99.99</span>
+                  <span class="font-medium text-green-600">+₽7,460</span>
                 </div>
               </div>
             </div>
@@ -67,9 +67,9 @@
             </div>
             <div class="grow flex items-center border-b border-gray-100 dark:border-gray-700/60 text-sm py-2">
               <div class="grow flex justify-between">
-                <div class="self-center"><a class="font-medium text-gray-800 hover:text-gray-900 dark:text-gray-100 dark:hover:text-white" href="#0">Market Cap Ltd</a></div>
+                <div class="self-center">Платеж от <a class="font-medium text-gray-800 hover:text-gray-900 dark:text-gray-100 dark:hover:text-white" href="#0">Market Cap Ltd</a></div>
                 <div class="shrink-0 self-start ml-2">
-                  <span class="font-medium text-green-600">+1,200.88</span>
+                  <span class="font-medium text-green-600">+₽89,600</span>
                 </div>
               </div>
             </div>
@@ -83,9 +83,9 @@
             </div>
             <div class="grow flex items-center border-b border-gray-100 dark:border-gray-700/60 text-sm py-2">
               <div class="grow flex justify-between">
-                <div class="self-center"><a class="font-medium text-gray-800 hover:text-gray-900 dark:text-gray-100 dark:hover:text-white" href="#0">App.com</a> Market Ltd 70 Wilson St London</div>
+                <div class="self-center">Отмененный платеж от <a class="font-medium text-gray-800 hover:text-gray-900 dark:text-gray-100 dark:hover:text-white" href="#0">App.com</a></div>
                 <div class="shrink-0 self-start ml-2">
-                  <span class="font-medium text-gray-800 dark:text-gray-100 line-through">+$99.99</span>
+                  <span class="font-medium text-gray-800 dark:text-gray-100 line-through">+₽7,460</span>
                 </div>
               </div>
             </div>
@@ -99,9 +99,9 @@
             </div>
             <div class="grow flex items-center text-sm py-2">
               <div class="grow flex justify-between">
-                <div class="self-center"><a class="font-medium text-gray-800 hover:text-gray-900 dark:text-gray-100 dark:hover:text-white" href="#0">App.com</a> Market Ltd 70 Wilson St London</div>
+                <div class="self-center">Счет от <a class="font-medium text-gray-800 hover:text-gray-900 dark:text-gray-100 dark:hover:text-white" href="#0">App.com</a></div>
                 <div class="shrink-0 self-start ml-2">
-                  <span class="font-medium text-gray-800 dark:text-gray-100">-$49.88</span>
+                  <span class="font-medium text-gray-800 dark:text-gray-100">-₽3,720</span>
                 </div>
               </div>
             </div>

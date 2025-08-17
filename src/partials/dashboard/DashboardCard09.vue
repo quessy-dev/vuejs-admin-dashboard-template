@@ -1,14 +1,14 @@
 <template>
   <div class="flex flex-col col-span-full sm:col-span-6 bg-white dark:bg-gray-800 shadow-xs rounded-xl">
     <header class="px-5 py-4 border-b border-gray-100 dark:border-gray-700/60 flex items-center">
-      <h2 class="font-semibold text-gray-800 dark:text-gray-100">Sales VS Refunds</h2>
+      <h2 class="font-semibold text-gray-800 dark:text-gray-100">Продажи VS Возвраты</h2>
       <Tooltip class="ml-2" size="lg">
-        <div class="text-sm">Sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit.</div>
+        <div class="text-sm">Сравнение продаж и возвратов за выбранный период времени.</div>
       </Tooltip>
     </header>
     <div class="px-5 py-3">
       <div class="flex items-start">
-        <div class="text-3xl font-bold text-gray-800 dark:text-gray-100 mr-2">+$6,796</div>
+        <div class="text-3xl font-bold text-gray-800 dark:text-gray-100 mr-2">+₽507,000</div>
         <div class="text-sm font-medium text-red-700 px-1.5 bg-red-500/20 rounded-full">-34%</div>
       </div>
     </div>
@@ -43,7 +43,7 @@ export default {
       datasets: [
         // Light blue bars
         {
-          label: 'Stack 1',
+          label: 'Продажи',
           data: [
             6200, 9200, 6600, 8800, 5200, 9200,
           ],
@@ -55,7 +55,7 @@ export default {
         },
         // Blue bars
         {
-          label: 'Stack 2',
+          label: 'Возвраты',
           data: [
             -4000, -2600, -5350, -4000, -7500, -2000,
           ],

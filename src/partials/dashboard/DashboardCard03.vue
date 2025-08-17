@@ -2,22 +2,22 @@
   <div class="flex flex-col col-span-full sm:col-span-6 xl:col-span-4 bg-white dark:bg-gray-800 shadow-xs rounded-xl">
     <div class="px-5 pt-5">
       <header class="flex justify-between items-start mb-2">
-        <h2 class="text-lg font-semibold text-gray-800 dark:text-gray-100">Acme Professional</h2>
+        <h2 class="text-lg font-semibold text-gray-800 dark:text-gray-100">Продажи Professional</h2>
         <EditMenu align="right" class="relative inline-flex">
           <li>
-            <a class="font-medium text-sm text-gray-600 dark:text-gray-300 hover:text-gray-800 dark:hover:text-gray-200 flex py-1 px-3" href="#0">Option 1</a>
+            <a class="font-medium text-sm text-gray-600 dark:text-gray-300 hover:text-gray-800 dark:hover:text-gray-200 flex py-1 px-3" href="#0">Настроить</a>
           </li>
           <li>
-            <a class="font-medium text-sm text-gray-600 dark:text-gray-300 hover:text-gray-800 dark:hover:text-gray-200 flex py-1 px-3" href="#0">Option 2</a>
+            <a class="font-medium text-sm text-gray-600 dark:text-gray-300 hover:text-gray-800 dark:hover:text-gray-200 flex py-1 px-3" href="#0">Экспорт</a>
           </li>
           <li>
-            <a class="font-medium text-sm text-red-500 hover:text-red-600 flex py-1 px-3" href="#0">Remove</a>
+            <a class="font-medium text-sm text-red-500 hover:text-red-600 flex py-1 px-3" href="#0">Удалить</a>
           </li>
         </EditMenu>
       </header>
-      <div class="text-xs font-semibold text-gray-400 dark:text-gray-500 uppercase mb-1">Sales</div>
+      <div class="text-xs font-semibold text-gray-400 dark:text-gray-500 uppercase mb-1">Продажи</div>
       <div class="flex items-start">
-        <div class="text-3xl font-bold text-gray-800 dark:text-gray-100 mr-2">$9,962</div>
+        <div class="text-3xl font-bold text-gray-800 dark:text-gray-100 mr-2">₽742,000</div>
         <div class="text-sm font-medium text-green-700 px-1.5 bg-green-500/20 rounded-full">+29%</div>
       </div>
     </div>
