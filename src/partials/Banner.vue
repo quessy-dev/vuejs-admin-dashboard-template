@@ -1,7 +1,7 @@
 <template>
   <div v-show="open" class="fixed bottom-0 right-0 w-full md:bottom-8 md:right-12 md:w-auto z-50">
     <div class="bg-gray-800 border border-transparent dark:border-gray-700/60 text-gray-50 text-sm p-3 md:rounded-sm shadow-lg flex justify-between">
-      <div class='text-gray-500 inline-flex'><a class="font-medium hover:underline text-gray-50" href="https://github.com/cruip/vuejs-admin-dashboard-template" target="_blank" rel="noreferrer">Скачать<span class="hidden sm:inline"> на GitHub</span></a> <span class="italic px-1.5">или</span> <a class="font-medium hover:underline text-emerald-400" href="https://cruip.com/mosaic/" target="_blank" rel="noreferrer">Премиум версия</a></div>
+      <div class='text-gray-500 inline-flex'><a class="font-medium hover:underline text-gray-50" href="https://github.com/cruip/vuejs-admin-dashboard-template" target="_blank" rel="noreferrer">Скачать<span class="hidden sm:inline"> на GitHub</span></a> <span class="italic px-1.5">или</span> <a class="font-medium hover:underline text-emerald-400" href="https://cruip.com/mosaic/" target=\"_blank" rel="noreferrer">Премиум версия</a></div>
       <button class="text-gray-500 hover:text-gray-400 pl-2 ml-3 border-l border-gray-700/60"  @click="open = false">
         <span class="sr-only">Закрыть</span>
         <svg class="w-4 h-4 shrink-0 fill-current" viewBox="0 0 16 16">
